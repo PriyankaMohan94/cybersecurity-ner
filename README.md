@@ -5,6 +5,7 @@ This repository contains an implementation of the SecureBERT-NER model from the 
 ## Description
 
 The SecureBERT-NER model is a Named Entity Recognition (NER) model specifically trained for cybersecurity texts. It can identify various entities such as identities, security teams, tools, times, and attacks.
+
 ![image](https://github.com/PriyankaMohan94/cybersecurity-ner/assets/158774209/0cbc3e15-2c19-4fd3-a7f5-5d95490d4af1)
 
 
@@ -32,3 +33,7 @@ entities = nlp(text)
 ```
 
 For more detailed usage, please refer to the example provided in the repository.
+
+## Reference 
+
+HuggingFace - https://huggingface.co/CyberPeace-Institute/SecureBERT-NER
