@@ -12,6 +12,7 @@ To use this code, you need to have the `transformers` library installed. You can
 
 ```bash
 pip install transformers
+```
 
 
 ## Usage
@@ -26,5 +27,6 @@ nlp = pipeline('ner', model='CyberPeace-Institute/SecureBERT-NER')
 
 # Use the pipeline to extract entities from the text
 entities = nlp(text)
+```
 
 For more detailed usage, please refer to the example provided in the repository.
